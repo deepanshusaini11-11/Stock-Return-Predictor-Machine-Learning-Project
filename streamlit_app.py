@@ -21,7 +21,7 @@ df = pd.read_csv("/content/sample_data/indexData.csv")
 # ============================================================
 
 # INSTALL LIBRARIES FIRST
-# !pip install yfinance ta xgboost scikit-learn matplotlib
+
 
 # ============================================================
 # IMPORT LIBRARIES
