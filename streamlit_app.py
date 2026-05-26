@@ -286,7 +286,7 @@ print("==============================")
 print(importance)
 
 
-!pip install ta yfinance xgboost
+
 
 import streamlit as st
 import yfinance as yf
@@ -310,11 +310,11 @@ ax.set_title(f"{ticker} Stock Price")
 
 st.pyplot(fig)
 
-!pip install streamlit
 
-!pip install streamlit yfinance ta xgboost scikit-learn matplotlib pandas numpy
 
-!pip install streamlit pyngrok --quiet
+
+
+
 
 # Commented out IPython magic to ensure Python compatibility.
 # %%writefile app.py
@@ -324,14 +324,7 @@ st.pyplot(fig)
 # st.title("Stock Prediction App")
 # st.write("Hello World")
 
-!streamlit run app.py &>/content/logs.txt &
 
-from pyngrok import ngrok
-
-public_url = ngrok.connect(8501)
-print(public_url)
-
-!streamlit run streamlit_app.py
 
 # Commented out IPython magic to ensure Python compatibility.
 # %%writefile streamlit_app.py
@@ -341,8 +334,4 @@ print(public_url)
 # st.title("My Streamlit App")
 # st.write("App Running Successfully")
 
-!ls
 
-!streamlit run /content/streamlit_app.py
-
-!streamlit run streamlit_app.py
