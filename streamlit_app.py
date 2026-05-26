@@ -12,6 +12,7 @@ import numpy as np
 import matplotlib as plt
 import seaborn as sns
 import yfinance as yf
+import streamlit as st
 
 df = pd.read_csv("indexData.csv")
 
