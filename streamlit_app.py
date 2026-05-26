@@ -39,7 +39,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, classification_report
 
 from xgboost import XGBClassifier
-!pip install yfinance ta xgboost scikit-learn matplotlib
+
 
 # ============================================================
 # DOWNLOAD STOCK DATA
@@ -285,9 +285,6 @@ print("==============================")
 
 print(importance)
 
-
-
-!pip install yfinance ta xgboost scikit-learn matplotlib
 
 !pip install ta yfinance xgboost
 
