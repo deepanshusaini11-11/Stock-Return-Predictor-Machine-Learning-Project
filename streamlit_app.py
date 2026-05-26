@@ -13,7 +13,7 @@ import matplotlib as plt
 import seaborn as sns
 import yfinance as yf
 
-df = pd.read_csv("/content/sample_data/indexData.csv")
+df = pd.read_csv("indexData.csv")
 
 # ============================================================
 # HIGH LEVEL QUANT ANALYST PROJECT
