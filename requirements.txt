@@ -1,6 +1,8 @@
 streamlit
+yfinance
+ta
+xgboost
+scikit-learn
+matplotlib
 pandas
 numpy
-matplotlib
-yfinance
-scikit-learn
