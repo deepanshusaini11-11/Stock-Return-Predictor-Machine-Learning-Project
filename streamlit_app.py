@@ -133,6 +133,11 @@ y = data['Target']
 # ============================================================
 # TRAIN TEST SPLIT
 # ============================================================
+st.write("Dataset Shape:", df.shape)
+st.write(df.head())
+
+st.write("X Shape:", X.shape)
+st.write("y Shape:", y.shape)
 
 X_train, X_test, y_train, y_test = train_test_split(
     X,
